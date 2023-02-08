@@ -1,0 +1,138 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.login-container {
+    height: 100vh;
+}
+
+.my-btn {
+    background-color: white !important;
+    width: 100%;
+    border-color: #fff !important;
+}
+
+.my-header {
+    background-color: #273a4d!important;
+}
+
+.theme-btn {
+    color: white !important;
+    background-color: #273a4d !important;
+    border: 1px solid rgba(255, 255, 255, 0.336) !important;
+}
+
+.navbar-brand {
+    margin-bottom: 5px !important;
+}
+
+.myul li  a{
+    color: #fff !important;
+}
+
+.flx-img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flx-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+}
+.flx-img img{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+.my-main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #273a4d;
+
+}
+.my-cont{
+    background-color: #273a4d !important;
+
+}
+.flx-img-2 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.flx-img-2 p {
+    color: rgba(255, 255, 255, 0.61);
+    
+}
+
+.img-main{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #0d102d;
+    border-radius: 20px;
+
+}
+
+.count{
+    display: flex;
+   
+
+}
+
+.count h2{
+   color:#8358ff;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+ 
+.flx-img-3 img {
+    width: 650px;
+    height: 400px;
+    
+}
+.cards{
+ padding: 20px;
+ background-color: #273a4d;
+
+
+}
+.main-card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    color: black !important;
+}
+
+.card-text{
+    color: black !important;
+}
+.card{
+    width: 16rem !important;
+}
+
+
+@media screen and (max-width:600px) {
+    .flx-img{
+        padding-top: 20px;
+    }
+    .flx-img-2{
+        text-align: center;   
+    }
+
+    .flx-img-2 h1{
+        font-size: 30px;
+    }
+    .my-main {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .card{
+        width: 100% !important;
+    }
+}
+
